@@ -85,7 +85,7 @@ function App() {
         width="100%"
         height="100%"
         transitionDuration="200"
-        mapStyle="mapbox://styles/safak/cknndpyfq268f17p53nmpwira"
+        mapStyle="mapbox://styles/lotusbiswas/ckyfj9wk61aos14qpkwz6i6rx"
         onViewportChange={(viewport) => setViewport(viewport)}
         onDblClick={currentUsername && handleAddClick}
       >
@@ -101,7 +101,7 @@ function App() {
                 style={{
                   fontSize: 7 * viewport.zoom,
                   color:
-                    currentUsername === p.username ? "tomato" : "slateblue",
+                    currentUsername === p.username ? "tomato" : "rgb(205, 90, 184)",
                   cursor: "pointer",
                 }}
                 onClick={() => handleMarkerClick(p._id, p.lat, p.long)}
