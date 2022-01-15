@@ -28,3 +28,53 @@ label{
 .date{
     font-size: 12px;
 }
+
+form{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+input{
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+input::placeholder, textarea::placeholder{
+    font-size: 12px;
+    color: rgb(198, 194, 194);
+}
+
+.submitButton{
+    padding: 5px;
+    border: none;
+    color: white;
+    background: tomato;
+    cursor: pointer;
+}
+
+.button{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.logout{
+    background: tomato;
+  
+}
+
+.login{
+    background: teal;
+}
+.register{
+    background: slateblue;
+}
+
+.buttons, .logout{
+    position: absolute;
+   top: 10px;
+   right: 10px;
+}
